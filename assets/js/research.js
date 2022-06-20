@@ -162,8 +162,7 @@ const fillData = () => {
       abstract,
     }) =>
       (output += `
-            <tr data-aos="zoom-in-left"> 
-                <td class="imgCol"><img src="${image}" class="rImg"></td>
+            <tr data-aos="zoom-in-left">
                 <td class = "researchTitleName">
                     <div class="img-div">
                         <span class="imgResponsive">

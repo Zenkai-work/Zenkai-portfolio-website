@@ -15,9 +15,19 @@ const techStack = [
     langDesc: "<li>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML</li>",
   },
   {
+    langImage: "assets/images/techstack-page/bootstrap.png",
+    langName: "Bootstrap",
+    langDesc: "<li>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development</li>",
+  },
+  {
     langImage: "assets/images/techstack-page/javascript.png",
     langName: "JavaScript",
     langDesc: "<li>JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/react.png",
+    langName: "React",
+    langDesc: "<li>React is a free and open-source front-end JavaScript library for building user interfaces based on UI components</li>",
   },
   {
     langImage: "assets/images/techstack-page/node.png",
@@ -30,9 +40,9 @@ const techStack = [
     langDesc: "<li>Python is an interpreted high-level general-purpose programming language</li>",
   },
   {
-    langImage: "assets/images/techstack-page/cpp.png",
-    langName: "C++",
-    langDesc: "<li>C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or C with Classes</li>",
+    langImage: "assets/images/techstack-page/django.png",
+    langName: "Django",
+    langDesc: "<li>Django is an advanced Web framework written in Python that makes use of the model view controller (MVC) architectural pattern.</li>",
   },
   {
     langImage: "assets/images/techstack-page/git.png",
@@ -40,19 +50,14 @@ const techStack = [
     langDesc: "<li>Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.</li>",
   },
   {
-    langImage: "assets/images/techstack-page/bootstrap.png",
-    langName: "Bootstrap",
-    langDesc: "<li>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development</li>",
+    langImage: "assets/images/techstack-page/kubernetes.png",
+    langName: "Kubernetes",
+    langDesc: "<li>Kubernetes is a portable, extensible, open source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation.</li>",
   },
   {
-    langImage: "assets/images/techstack-page/react.png",
-    langName: "React",
-    langDesc: "<li>React is a free and open-source front-end JavaScript library for building user interfaces based on UI components</li>",
-  },
-  {
-    langImage:"assets/images/techstack-page/c.png",
-    langName:"C",
-    langDesc:"<li>C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system</li>"
+    langImage: "assets/images/techstack-page/docker.png",
+    langName: "Docker",
+    langDesc: "<li>Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.</li>",
   },
 ];
 

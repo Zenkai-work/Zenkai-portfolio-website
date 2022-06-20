@@ -5,36 +5,30 @@
 const referenceTable = document.querySelector(".pain");
 
 const references = [
-  {
-    sl1: 1,
-    name1 : "Smaranjit Ghose",
-        designation1 : "Product Manager, Microsoft",
-        image1 : "https://avatars.githubusercontent.com/u/46641503?v=4",
-        message1 : "John is a conscientious individual whom I mentored during JWOC'2021. His problem-solving skills and a keen interest in learning new skillsets are remarkable. His hardworking nature and team-building abilities make him different from others.",
+    {
+        sl1: 1,
+        name1 : "Paolo Greppi",
+        designation1 : "Founder & Technical Director at Simevo s.r.l.",
+        message1 : "Mikio is a conscientious developer. His problem-solving skills and a keen interest in learning new skillsets are remarkable. His hardworking nature and team-building abilities make him different from others.",
         
 
         sl2:2,
-        name2 : "Anush Bhatia",
-        designation2 : "Senior Analyst, Capgemini", 
-        image2: "https://avatars.githubusercontent.com/u/40017559?v=4",
-        message2 : "John has the best grasping skills I have seen in a new developer. I got to know him through GSSOC'2021 when I mentored him, and he made an exceptional growth during the competition. He made some incredible contributions and has good experience with Open Source.",
-        
-        
+        name2 : "Özgür Hangişi",
+        designation2 : "Founder at WebInStats", 
+        message2 : "He is really helpful and cares about the details and timing. Will defiantly work with him again and recommend him to anyone.",
     },
 
     {
         sl1:3,
-        name1 : "Aditya Jyoti Paul",
-        designation1 : "Technical Analyst, Amazon",
-        image1 : "https://media-exp1.licdn.com/dms/image/C5603AQGEV-kzawPxjw/profile-displayphoto-shrink_800_800/0/1588602102622?e=1651708800&v=beta&t=8nxhFoR-WB4OKVltyYaVjmRpig_kQcvFsoa-eLjJPBQ",
-        message1 : "John and I have worked on several projects. Apart from technical skills, he also has good soft skills. He has good experience with debugging and has excellent leadership qualities.",
+        name1 : "Daniel Harris",
+        designation1 : "Web Engineer, IT Consultant at DanielHarris.net",
+        message1 : "Mikio and I have worked on several projects. Apart from technical skills, he also has good soft skills. He has good experience with debugging and has excellent leadership qualities.",
         
 
         sl2:4,
-        name2 : "Arnab Dutta Purkayastha",
-        designation2 : "Data Scientist, Flipkart",
-        image2 : "https://avatars.githubusercontent.com/u/59832779?v=4",
-        message2 : "John and I worked together during a hackathon and the thing that surprised me the most about him was his knowledge of fundamentals. He offered sincere help to the team throughout the competition. He is an impressive problem solver who is able to address complex issues strategically and confidently.",
+        name2 : "John Thomas Holiman",
+        designation2 : "Project Engineer at Galley Support Innovations",
+        message2 : "Mikio completed really great work! He is an impressive problem solver who is able to address complex issues strategically and confidently.",
   },
 ];
 
@@ -58,7 +52,6 @@ const fillData = () => {
       absbox_for_linkedin2,
     }) =>
       (output += `<tr data-aos="zoom-in-left"> 
-                <td class="imgCol"><img src="${image1}" class="rImg"></td>
                 <td class = "referenceTitleName">
                     <div>
                         <span class="imgResponsive">
@@ -91,7 +84,6 @@ const fillData = () => {
                             
                            
                         </td>
-                        <td class="imgCol"><img src="${image2}" class="rImg1"></td>
                     </tr>`)
   );
   referenceTable.innerHTML = output;

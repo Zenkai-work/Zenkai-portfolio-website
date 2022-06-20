@@ -5,25 +5,32 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "FULL STACK DEVELOPER",
+    cardImage: "assets/images/experience-page/simevo.jpg",
+    place: "Simevo S.R.L.",
+    time: "(Nov, 2021 - present)",
+    desp: "<li>Built a server-side rendered web app implemented with Django 4 + ASGI that acts as a gatekeeper to secondary web apps hosted on a Kubernetes cluster in a multi-instance fashion.</li> <li>Built 3 projects using Django for the backend and alpine and Vue for the frontend.</li> <li>Contributed to fixing a lot of complicated issues as a problem solver.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "FULL STACK DEVELOPER",
+    cardImage: "assets/images/experience-page/raininteractivekk.jpg",
+    place: "RAIN INTERACTIVE KK",
+    time: "(May, 2017 - Oct, 2021)",
+    desp: "<li>Built reusable React.js and Vue.js components.</li><li>Developed 5+ SPAs using React/Redux.</li><li>Integrated a real-time WebSocket to see all changes intermediately.</li><li>Built a customizable survey system using Django web framework for a market research company.</li><li>Designed and implemented a Django GraphQL API to collect data from a Unity Client and store the data in PostgreSQL.</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "FULL-STACK DEVELOPER",
+    cardImage: "assets/images/experience-page/zodigitaljapan.jpeg",
+    place: "ZO DIGITAL JAPAN",
+    time: "(Oct, 2015 - Apr, 2017)",
+    desp: "<li>Created websites on the MERN stack from scratch.</li> <li>Contributed as part of the team that developed a new webshop app for a large retailer.</li> <li>Supported and refined a web service for storing data from social networks.</li> <li>Contributed to deployment to hosting server.</li> <li>Integrated Webpack and React.js into Django framework.</li>",
+  },
+  {
+    title: "FRONT-END DEVELOPER",
+    cardImage: "assets/images/experience-page/yumyapps.jpg",
+    place: "YUMYAPPS CO.,LTD.",
+    time: "(Apr, 2014 - Sep, 2015)",
+    desp: "<li>Created a number of responsive web pages.</li> <li>Developed themes and plugins on WordPress.</li> <li>Implemented pixel-perfect design using vertical alignments.</li>",
   },
 ];
 
@@ -87,24 +94,24 @@ const volunteershipcards = [
   },
 ];
 
-const showCards = () => {
-  let output = "";
-  volunteershipcards.forEach(
-    ({ title, cardImage, description }) =>
-      (output += `        
-      <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
+// const showCards = () => {
+//   let output = "";
+//   volunteershipcards.forEach(
+//     ({ title, cardImage, description }) =>
+//       (output += `        
+//       <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
       
-      <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
-      <div class="content">
-          <h2 class="volunteerTitle">${title}</h2><br>
-          <p class="copy">${description}</p></div>
+//       <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
+//       <div class="content">
+//           <h2 class="volunteerTitle">${title}</h2><br>
+//           <p class="copy">${description}</p></div>
       
-      </div>
-      `)
-  );
-  volunteership.innerHTML = output;
-};
-document.addEventListener("DOMContentLoaded", showCards);
+//       </div>
+//       `)
+//   );
+//   volunteership.innerHTML = output;
+// };
+// document.addEventListener("DOMContentLoaded", showCards);
 
 // Hackathon Section
 
@@ -202,24 +209,24 @@ const mentor = [
   },
 ];
 
-const showCards3 = () => {
-  let output = "";
-  mentor.forEach(
-    ({ title, image, subtitle, desp }) =>
-      (output += `  
-      <div class="blog-slider__item swiper-slide">
-        <div class="blog-slider__img">
-            <img src="${image}" alt="">
-        </div>
-        <div class="blog-slider__content">
-          <div class="blog-slider__title">${title}</div>
-          <span class="blog-slider__code">${subtitle}</span>
-          <div class="blog-slider__text">${desp}</div>
-          <a href="#" class="blog-slider__button">Read More</a>   
-        </div>
-      </div>
-      `)
-  );
-  hackathonsection.innerHTML = output;
-};
-document.addEventListener("DOMContentLoaded", showCards3);
+// const showCards3 = () => {
+//   let output = "";
+//   mentor.forEach(
+//     ({ title, image, subtitle, desp }) =>
+//       (output += `  
+//       <div class="blog-slider__item swiper-slide">
+//         <div class="blog-slider__img">
+//             <img src="${image}" alt="">
+//         </div>
+//         <div class="blog-slider__content">
+//           <div class="blog-slider__title">${title}</div>
+//           <span class="blog-slider__code">${subtitle}</span>
+//           <div class="blog-slider__text">${desp}</div>
+//           <a href="#" class="blog-slider__button">Read More</a>   
+//         </div>
+//       </div>
+//       `)
+//   );
+//   hackathonsection.innerHTML = output;
+// };
+// document.addEventListener("DOMContentLoaded", showCards3);

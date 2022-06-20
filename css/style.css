@@ -25,7 +25,7 @@ html[data-theme="light"] {
   --col-icon-linkedin: #0e76a8;
   --col-icon-kaggle: #41aff3;
   --col-icon-github: #24292e;
-  --col-icon-telegram: rgb(201, 94, 174);
+  --col-icon-instagram: rgb(201, 94, 174);
   --col-icon-mail: rgb(209, 82, 82);
   --col-icon-google-scholar: #3cba54;
   --col-icon-codeforces: rgb(19, 145, 184);
@@ -53,7 +53,7 @@ html[data-theme="dark"] {
   --col-icon-linkedin: #0e76a8;
   --col-icon-kaggle: #41aff3;
   --col-icon-github: #24292e;
-  --col-icon-telegram: rgb(201, 94, 174);
+  --col-icon-instagram: rgb(201, 94, 174);
   --col-icon-mail: rgb(209, 82, 82);
   --col-icon-google-scholar: #3cba54;
   --col-icon-codeforces: rgb(19, 145, 184);
@@ -628,7 +628,7 @@ Rotate Transition in foote Soical Icon
 
 /*
 -----------------------------
- telegram MICROANIMATION
+ INSTAGRAM MICROANIMATION
 -----------------------------
 */
 
@@ -640,20 +640,20 @@ Rotate Transition in foote Soical Icon
   stroke-miterlimit: 10;
 }
 
-.telegram-icon-footer:hover #littleCircle {
+.instagram-icon-footer:hover #littleCircle {
   stroke-dasharray: 150;
 }
 
-.telegram #shutter {
+.instagram #shutter {
   display: none;
 }
 
-.telegram-icon-footer:hover #shutter {
+.instagram-icon-footer:hover #shutter {
   display: block;
   animation: shutter 1s linear infinite;
 }
 
-.telegram-icon-footer:hover #lens {
+.instagram-icon-footer:hover #lens {
   fill: #EF4649;
   animation: lens 1.5s linear infinite;
 }
@@ -718,9 +718,9 @@ Rotate Transition in foote Soical Icon
 }
 
 
-/* telegram SVG micro animation */
+/* instagram SVG micro animation */
 
-.telegram-icon-footer {
+.instagram-icon-footer {
   width: 70px;
   padding-right: 24px;
   padding-bottom: 8px;
@@ -763,13 +763,13 @@ Rotate Transition in foote Soical Icon
   background: #2b2a2A;
 }
 
-.rounded-social-buttons .social-button.telegram {
+.rounded-social-buttons .social-button.instagram {
   background: #2b2a2A;
   box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
 }
 
-.rounded-social-buttons .social-button.telegram:hover,
-.rounded-social-buttons .social-button.telegram:focus {
+.rounded-social-buttons .social-button.instagram:hover,
+.rounded-social-buttons .social-button.instagram:focus {
   color: #000;
   background: #2b2a2A;
 }
