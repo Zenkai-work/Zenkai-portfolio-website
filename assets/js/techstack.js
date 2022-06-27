@@ -30,6 +30,11 @@ const techStack = [
     langDesc: "<li>React is a free and open-source front-end JavaScript library for building user interfaces based on UI components</li>",
   },
   {
+    langImage: "assets/images/techstack-page/vue.png",
+    langName: "Vue",
+    langDesc: "<li>Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications.</li>",
+  },
+  {
     langImage: "assets/images/techstack-page/node.png",
     langName: "Node",
     langDesc: "<li>Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser</li>",

@@ -9,28 +9,52 @@ const exp = [
     cardImage: "assets/images/experience-page/simevo.jpg",
     place: "Simevo S.R.L.",
     time: "(Nov, 2021 - present)",
-    desp: "<li>Built a server-side rendered web app implemented with Django 4 + ASGI that acts as a gatekeeper to secondary web apps hosted on a Kubernetes cluster in a multi-instance fashion.</li> <li>Built 3 projects using Django for the backend and alpine and Vue for the frontend.</li> <li>Contributed to fixing a lot of complicated issues as a problem solver.</li>",
+    desp: "<li>Refactored Vue/Node code—reducing bugs, making it reusable, and altering it to \
+    provide new data utilized by the new data-visualization interfaces</li> \
+    <li>Used Amazon Lambda to increase the performance and secure the API endpoints</li> \
+    <li>Implemented multiplayer real-time features using Nuxt.js and WebSockets</li> \
+    <li>Used Amazon RDS for SQL databases and use it as the primary database</li> \
+    <li>Built daily GoogleSheet report using google-spreadsheet and node-cron library</li> \
+    <li>Wrote unit and end-to-end tests using Jest and Chai to ensure that the APIs are working as expected</li> \
+    <li>Used Github and Gitlab CI/CD actions to implement CI and CD</li>" ,
   },
   {
     title: "FULL STACK DEVELOPER",
     cardImage: "assets/images/experience-page/raininteractivekk.jpg",
     place: "RAIN INTERACTIVE KK",
     time: "(May, 2017 - Oct, 2021)",
-    desp: "<li>Built reusable React.js and Vue.js components.</li><li>Developed 5+ SPAs using React/Redux.</li><li>Integrated a real-time WebSocket to see all changes intermediately.</li><li>Built a customizable survey system using Django web framework for a market research company.</li><li>Designed and implemented a Django GraphQL API to collect data from a Unity Client and store the data in PostgreSQL.</li>",
+    desp: "<li>Optimized several large mongo queries where the execution time went down from 10 seconds to 1-2 seconds (sometimes sub-second)</li> \
+    <li>Implemented full-text search of articles using elasticsearch</li> \
+    <li>Migrated MongoDB to Postgres on Node.js back-end</li> \
+    <li>Used Amazon S3 to store large files and MongoDB to store documents of Users, Accounts, Merchants, Transactions, etc</li> \
+    <li>Developed cron-jobs for performing periodic features on the back-end side without any front-end requests</li> \
+    <li>Implemented live reloading of new product content and messages using socket.io</li> \
+    <li>Built transactions and repayments report as excel and built a function of converting Docx files to pdf files</li> \
+    <li>Used mongo GridFSBucket/Google Cloud Storage to store large files like videos, audios, and images</li>",
   },
   {
     title: "FULL-STACK DEVELOPER",
     cardImage: "assets/images/experience-page/zodigitaljapan.jpeg",
     place: "ZO DIGITAL JAPAN",
     time: "(Oct, 2015 - Apr, 2017)",
-    desp: "<li>Created websites on the MERN stack from scratch.</li> <li>Contributed as part of the team that developed a new webshop app for a large retailer.</li> <li>Supported and refined a web service for storing data from social networks.</li> <li>Contributed to deployment to hosting server.</li> <li>Integrated Webpack and React.js into Django framework.</li>",
+    desp: "<li>Built a responsive website front end using React/Redux</li> \
+    <li>Created several React components with D3 charts that support interactive visualizations of financial data projections and analysis</li> \
+    <li>Developed unit tests and integration tests using Jest and Chai</li> \
+    <li>Implemented client-side data transformations to map, filter, reduce, etc. large datasets for display in interactive SVG charts</li> \
+    <li>Wrote advanced jQuery DataTables plugins and UX handling</li> \
+    <li>Created a front-end application using React, which communicates with back-end API using JWT</li> \
+    <li>Displayed PDFs in React app as easily as if they were images</li> \
+    <li>Supported and refined a web service for storing data from social networks.</li>",
   },
   {
     title: "FRONT-END DEVELOPER",
     cardImage: "assets/images/experience-page/yumyapps.jpg",
     place: "YUMYAPPS CO.,LTD.",
     time: "(Apr, 2014 - Sep, 2015)",
-    desp: "<li>Created a number of responsive web pages.</li> <li>Developed themes and plugins on WordPress.</li> <li>Implemented pixel-perfect design using vertical alignments.</li>",
+    desp: "<li>Used react-webcam module to add camera features to React front-end</li> \
+    <li>Created reusable React components for the date picker, dropdown, buttons, and input styles according to the provided designs</li> \
+    <li>Improved the UI and UX across the entire application with an overhaul of the existing CSS code</li> \
+    <li>Contributed as part of the team that developed a new web-shop app for a large retailer</li>",
   },
 ];
 
